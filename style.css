@@ -79,6 +79,14 @@ figure img {
 .photo img,.sub-photo img{
       border-radius: 30px;
 }
+.sub-photo img{
+    max-height: 50vh;
+    object-fit: cover;
+}
+.photo img{
+  aspect-ratio:1 / 1;
+      object-fit: cover;
+}
 h2 {
     font-size: 26px;
     text-align: center;
