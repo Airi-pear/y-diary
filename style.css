@@ -9,12 +9,11 @@ body {
     font-size: 15px;
     color: #3D3D3D;
     font-family: "M PLUS 1 Code", monospace;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
     line-height: 2;
 }
-
 img {
     vertical-align: bottom;
 }
@@ -22,41 +21,38 @@ main {
     max-width: 1100px;
     margin: 0 auto;
 }
-h1{
+h1 {
     background-color: #fff;
     padding: 20px;
-    width:65vh;
-    position:relative;
+    width: 65vh;
+    position: relative;
     text-align: center;
     font-size: 35px;
-   margin: 50px auto;
+    margin: 50px auto;
 }
-
-
-h1 #hana{
-       position: absolute;
-   width: 70px;
+h1 #hana {
+    position: absolute;
+    width: 70px;
     height: auto;
     right: 59px;
-transform: rotate(15deg);
+    transform: rotate(15deg);
     bottom: 0;
 }
-h1 #inu{
-   position: absolute;
+h1 #inu {
+    position: absolute;
     width: 61px;
     height: auto;
     transform: rotate(-20deg);
     left: 78px;
     top: -19px;
 }
-.title-day{
+.title-day {
     text-align: center;
 }
-a{
+a {
     color: #3d3d3d;
     text-decoration: none;
 }
-
 figure img {
     width: 100%;
     height: auto;
@@ -64,9 +60,9 @@ figure img {
 .post {
     width: 220px;
 }
-.flex{
+.flex {
     display: flex;
-   flex-wrap: wrap;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 .post .photo {
@@ -76,34 +72,32 @@ figure img {
     margin: 10px auto;
     border-radius: 30px;
 }
-.photo img,.sub-photo img{
-      border-radius: 30px;
+.photo img, .sub-photo img {
+    border-radius: 30px;
 }
-.sub-photo img{
+.sub-photo img {
     max-height: 50vh;
     object-fit: cover;
 }
-.photo img{
-  aspect-ratio:1 / 1;
-      object-fit: cover;
+.photo img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
 }
 h2 {
     font-size: 26px;
     text-align: center;
-
-   
 }
-h2 span,.marubtn span{
+h2 span, .marubtn span {
     white-space: nowrap;
 }
-#sub h2{font-size: 24px;
-    margin-top:30px;
-
+#sub h2 {
+    font-size: 24px;
+    margin-top: 30px;
 }
-h2,h1{
-      font-family: "Train One", system-ui;
-  font-weight: 400;
-  font-style: normal;
+h2, h1 {
+    font-family: "Train One", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 #top h2:before, #top h2:after {
     content: '';
@@ -133,38 +127,45 @@ h2,h1{
     margin: 0;
     position: relative;
 }
-.illust1,.illust2,.illust3{
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+}
+.breadcrumb li:not(:last-of-type)::after {
+    content: "›";
+    margin: 0 .6em;
+    color: #777;
+}
+.illust1, .illust2, .illust3 {
     position: fixed;
-    width:60px;
+    width: 60px;
     z-index: -1;
     opacity: 0.5;
 }
-.illust1{
-     width:40px;
-    bottom:10%;
-    left:5%;
+.illust1 {
+    width: 40px;
+    bottom: 10%;
+    left: 5%;
 }
-.illust2{
-    top:70%;
-    left:90%;
+.illust2 {
+    top: 70%;
+    left: 90%;
 }
-.illust3{
-    top:10%;
-    right:3%;
+.illust3 {
+    top: 10%;
+    right: 3%;
 }
-
-
-
 section {
     margin-bottom: 80px;
-    padding:0 30px;
+    padding: 0 30px;
 }
-.post h3,.post .day{
-    width:80%;
+.post h3, .post .day {
+    width: 80%;
     display: block;
     margin: 0 auto;
 }
-
 .marubtn {
     background: #000;
     width: 114px;
@@ -173,69 +174,65 @@ section {
     border-radius: 100%;
     position: fixed;
     right: 20px;
-    bottom:20px;
+    bottom: 20px;
     color: #fff;
     cursor: pointer;
 }
-
-
-#kame{
+#kame {
     position: relative;
-    top:30px;
+    top: 30px;
 }
-.sub-photo{
-    width:70%;
-    padding:1%;
+.sub-photo {
+    width: 70%;
+    padding: 1%;
     background: #499784;
     margin: 50px auto;
     border-radius: 30px;
 }
-section p a{
-    display:inline;
+section p a {
+    display: inline;
     text-decoration: underline;
 }
-.inner{
-    width:70%;
+.inner {
+    width: 70%;
     margin: 0 auto;
 }
-.gif,.sp-capture,.rough,.capture{
+.gif, .sp-capture, .sec-img, .capture {
     margin: 1em auto;
 }
-.gif,.rough{
-    width:450px;
+.gif, .sec-img {
+    width: 450px;
 }
-.capture{
-    width:600px;
+.capture {
+    width: 600px;
 }
-.sp-capture{
-    width:300px;
+.sp-capture {
+    width: 300px;
 }
-
 .penguin-button {
-  background-color: #499784;
-    margin:2em 20px;
-  border: none;
-  width:200px;
+    background-color: #499784;
+    margin: 2em 20px;
+    border: none;
+    width: 200px;
     height: 50px;
-  display: inline-block;
-  position: relative;
-  cursor: pointer;
-    
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
 }
 .penguin-button:hover {
-  border:3px solid #499784;
-  background-color: rgba(147,162,0,.0);
+    border: 3px solid #499784;
+    background-color: rgba(147, 162, 0, .0);
 }
-.buttons{
-   text-align: center;
+.buttons {
+    text-align: center;
 }
-ul{
+ul {
     list-style-position: inside;
 }
-.wave{
-  text-decoration: #3d3d3d wavy underline;
+.wave {
+    text-decoration: #3d3d3d wavy underline;
 }
-.end{
+.end {
     text-align: center;
 }
 #sub h3 {
@@ -244,7 +241,6 @@ ul{
     position: relative;
     line-height: 1.5;
 }
-
 #sub h3::before {
     content: "";
     display: block;
@@ -256,63 +252,144 @@ ul{
     background: #3d3d3d;
     border-radius: 50%;
 }
-#top main .pre a{
-    color: rgba(138,138,138,1.00);
+#top main .pre a {
+    color: rgba(138, 138, 138, 1.00);
 }
-#top section{
+#top section {
     margin-bottom: 40px;
 }
-
-@media (max-width:900px){
-    .capture,.gif {
-    width: 90%;
+.blog-list {
+    list-style: none outside;
 }
-    .rough{
-        width:70%;
+.blog-list .item a {
+    display: flex;
+    text-decoration: none;
+    color: #333;
+    border-bottom: 1px solid #CCC;
+    padding: 20px 20px;
+}
+.blog-list .item:first-child a {
+    border-top: 1px solid #CCC;
+}
+.blog-list .item .date {
+    min-width: 120px;
+    font-size: 16px;
+    color: #999;
+    padding: 0 20px 0 0;
+}
+.blog-list .item .category {
+    width: 55px;
+    text-align: center;
+    background-color: #499784;
+    color: #fff;
+    border-radius: 5px;
+    margin-right: 5em;
+}
+.news-list .item .category span {
+    background: #999;
+    color: #FFF;
+    text-align: center;
+    display: inline-block;
+    padding: 5px 20px;
+    font-size: 12px;
+    line-height: 1;
+}
+.news-list .item .title {
+    width: 100%;
+}
+.news-list .item a:hover .title {
+    color: #00F;
+}
+.prev-next-link {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.prev-next-link a {
+    display: block;
+    text-decoration: none;
+    padding: 2em;
+    color: #777;
+}
+.prev-label, .next-label {
+    color: #777;
+    margin-bottom: 10px;
+}
+.prev-label::before {
+    content: "←";
+    width: 0.6em;
+}
+.next-label::after {
+    content: "→";
+    width: 0.6em;
+}
+.more a{
+          margin: 2em auto;
+    padding: 0.5em;
+    display: flex;
+    font-size: 16px;
+    width: 100px;
+    background-color: #fff;
+    justify-content: center;
+    text-decoration: none;
+}
+
+@media (max-width:900px) {
+    .capture, .gif {
+        width: 90%;
     }
-    .illust1,.illust2,.illust3{
+    .sec-img {
+        width: 70%;
+    }
+    .illust1, .illust2, .illust3 {
         display: none;
     }
-    .inner{
-        width:100%;
+    .inner {
+        width: 100%;
     }
-    .sp-capture{
-        width:50%;
+    .sp-capture {
+        width: 50%;
     }
     .sub-photo {
-    width: 95%;
+        width: 95%;
         margin: 20px auto;
-}
-
+    }
     #top h3 {
- margin-bottom: 0px;
-        width:90%;
+        margin-bottom: 0px;
+        width: 90%;
+    }
+    .post {
+        width: 150px;
+    }
 }
-      .post {
-    width: 150px;
-}
-
-}
-@media (max-width:600px){
-   .marubtn{
-            width: 80px;
-    height: 80px;
+@media (max-width:600px) {
+    .marubtn {
+        width: 80px;
+        height: 80px;
         left: 10px;
-    bottom: 10px;
+        bottom: 10px;
     }
-    h1{
-    width: 300px;
-    font-size: 30px;
-    margin: 30px auto;
-
+    h1 {
+        width: 300px;
+        font-size: 30px;
+        margin: 30px auto;
     }
-    h1 #inu{
+    h1 #inu {
         width: 48px;
-    left: -9px;
+        left: -9px;
     }
-    h1 #hana{
-    width: 65px;
-    right: -8px;
-    bottom: -23px;
+    h1 #hana {
+        width: 65px;
+        right: -8px;
+        bottom: -23px;
+    }
+    .blog-list .item a {
+        flex-direction: column;
+    }
+    .blog-list .item .date {
+        min-width: 100px;
+    }
+    .blog-list .item .title {
+        margin-top: 10px;
     }
 }
