@@ -209,7 +209,7 @@ section p a {
 .sp-capture {
     width: 300px;
 }
-.penguin-button {
+.penguin-button,.sec-button {
     background-color: #499784;
     margin: 2em 20px;
     border: none;
@@ -219,9 +219,13 @@ section p a {
     position: relative;
     cursor: pointer;
 }
-.penguin-button:hover {
+
+.penguin-button:hover,.sec-button:hover {
     border: 3px solid #499784;
     background-color: rgba(147, 162, 0, .0);
+}
+.button-center{
+    text-align: center;
 }
 .buttons {
     text-align: center;
