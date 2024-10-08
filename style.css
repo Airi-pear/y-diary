@@ -177,6 +177,7 @@ section {
     bottom: 20px;
     color: #fff;
     cursor: pointer;
+    transition: 0.5s;
 }
 #kame {
     position: relative;
@@ -336,6 +337,11 @@ ul {
     background-color: #fff;
     justify-content: center;
     text-decoration: none;
+}
+.marubtn:hover {
+    transform: scale(1.1);
+    border: 2px solid #FFF;
+    
 }
 
 @media (max-width:900px) {
